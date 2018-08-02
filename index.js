@@ -4,7 +4,14 @@ function setCart(newCart) {
   cart = newCart;	
 }
 
-
+ function total() {	 function total() {
+   let t = 0	   let t = 0
+ 	 
+   for (var i = 0, l = cart.length; i < l; i++) {	   
+     for (var item in cart[i]) {	     
+       t += cart[i][item]	       
+     }	     }
+   }
 
 function setCart(c) {
   cart = c;
