@@ -1,7 +1,7 @@
 var cart = [];
 
-function getCart() {
- return cart;
+function setCart(newCart) {
+  cart = newCart;	
 }
 
 function setCart(c) {
