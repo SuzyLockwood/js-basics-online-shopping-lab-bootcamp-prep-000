@@ -4,6 +4,8 @@ function setCart(newCart) {
   cart = newCart;	
 }
 
+
+
 function setCart(c) {
   cart = c;
   return cart;
